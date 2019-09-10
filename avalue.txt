@@ -1,0 +1,19 @@
+CREATE TABLE `avalue` (
+  `id` int(3) unsigned zerofill NOT NULL auto_increment,
+  `salesperson_name` varchar(20) NOT NULL,
+  `year` int(4) NOT NULL,
+  `sales_order` int(5) NOT NULL,
+  `stotal_sales` int(20) NOT NULL,
+  `group_id` int(5) NOT NULL,
+   PRIMARY KEY  (`id`),
+) ENGINE=MyISAM  AUTO_INCREMENT=1 ;
+
+-- 
+-- Dumping data for table `avalue`
+-- 
+
+INSERT INTO `avalue` VALUES (1, 'adison', '2017', '100', '1250000', '10');
+INSERT INTO `avalue` VALUES (2, 'aom', '2017', '90', '980000', '20');
+INSERT INTO `avalue` VALUES (3, 'adison', '2018', '30', '82500', '10');
+INSERT INTO `avalue` VALUES (4, 'aom', '2018', '25', '65000', '20');
+INSERT INTO `avalue` VALUES (5, 'rin', '2018', '34', '96500', '30');
